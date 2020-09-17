@@ -15,7 +15,7 @@ class NewTodo extends Component {
         alert('Submitted\n' + data.title + '\n' + data.content);
         this.setState({submitted: true});
 
-        this.props.history.push('/todos');
+        // this.props.history.push('/todos');
     };
 
     render(){
